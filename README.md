@@ -13,6 +13,17 @@ Industrial Barcode Scanner PLC Terminal is a Windows desktop application for rea
 - Local settings saved to `scanner_settings.json`.
 - Startup checks and runtime logs for troubleshooting.
 
+## Download
+
+Packaged Windows executables are available in GitHub Releases:
+
+[Download v1.0.0](https://github.com/JC-qq897888271/industrial-barcode-scanner-plc-terminal/releases/tag/v1.0.0)
+
+Release assets:
+
+- `IndustrialBarcodeScannerPLC-Tk.exe` - Tkinter version with startup auto-run support.
+- `IndustrialBarcodeScannerPLC-Qt.exe` - PyQt version.
+
 ## Files
 
 - `扫码枪.py` - PyQt desktop application.
