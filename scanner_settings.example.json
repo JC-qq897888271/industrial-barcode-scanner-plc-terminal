@@ -1,0 +1,31 @@
+{
+  "serial": {
+    "selected_port": "",
+    "baudrate": 9600
+  },
+  "plc": {
+    "ip_address": "127.0.0.1",
+    "rack": 0,
+    "slot": 1
+  },
+  "data_target": {
+    "display_text": "扫码结果",
+    "db_number": 1,
+    "start": 0,
+    "data_type": "S7STRING",
+    "bit_index": 0,
+    "enabled": true
+  },
+  "heartbeat": {
+    "display_text": "心跳",
+    "db_number": 1,
+    "start": 10,
+    "data_type": "BOOL",
+    "bit_index": 0,
+    "value_on": "1",
+    "value_off": "0",
+    "interval_on_seconds": 1.0,
+    "interval_off_seconds": 1.0,
+    "enabled": false
+  }
+}
